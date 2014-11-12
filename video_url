@@ -1,0 +1,3 @@
+        NSMutableArray *urlArray = (NSMutableArray*)[videoHref componentsSeparatedByString:@"/"];
+        NSString *realM3U8 = [urlArray objectAtIndex:[urlArray count]-2];
+        NSString *videoURL = [NSString stringWithFormat:@"http://v.youku.com/player/getRealM3U8/vid/%@/type/mp4/v.m3u8",realM3U8];alM3U8];
